@@ -4,5 +4,5 @@ void PrintMessage(string message)
 {
     if (message is not null)
 
-        Console.WriteLine(message);
+        Console.WriteLine(message + "$");
 }
