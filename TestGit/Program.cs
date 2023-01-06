@@ -6,6 +6,6 @@ void PrintMessage(string message)
     if (message.Length < 5)
         Console.WriteLine("Invaid!");
     else
-        Console.WriteLine("*" + message + "123");
+        Console.WriteLine("*" + message + "1235677777");
    
 }
