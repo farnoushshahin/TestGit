@@ -2,5 +2,8 @@
 Console.WriteLine("Hello, World!");
 void PrintMessage(string message)
 {
-    Console.WriteLine(message);
+    if (message.Length < 5)
+        Console.WriteLine("Invaid!");
+    else
+        Console.WriteLine("*" + message + "*");
 }
