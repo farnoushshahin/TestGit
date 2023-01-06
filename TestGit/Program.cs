@@ -2,5 +2,6 @@
 Console.WriteLine("Hello, World!");
 void PrintMessage(string message)
 {
-    Console.WriteLine(message);
+    if (message is not null)
+        Console.WriteLine(message);
 }
