@@ -1,8 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-void PrintMessage(string message)
+void PrintMessage(string message, string s )
 {
-        
-        Console.WriteLine(message + "$");
+    if (message is null)
+    {
+        Console.WriteLine(s);
+    }
+    Console.WriteLine(message + "$");
 
 }
